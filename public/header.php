@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <img src="..\images\fiets.jpeg" id="logo">
+        <a href="index.php"><img src="..\images\fiets.jpeg" id="logo"></a>
          <div id="header">
              <div>
                 <h1>Fietsenwinkel</h1>
