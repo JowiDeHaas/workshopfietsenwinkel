@@ -1,0 +1,95 @@
+body
+    {
+        margin: 0 0;
+    }
+#container {
+    height: 500px;
+    width: 100%;
+    background-color:blue;
+}
+
+
+
+
+
+
+
+
+header
+        {
+            display: flex;
+            height: 150px;
+            width: 100%;
+            background-color: orange;
+            margin: 0 0;
+            flex-direction: row;
+        }
+        #header
+        {
+            display: flex;
+            width: 75%;
+            height: 200px;
+            justify-content: space-around;
+        }
+        #logo
+        {
+            width: 25%;
+            height: 150px;
+        }
+        #winkelwagen
+        {
+            height: 50px;
+            width: 50px;
+            margin-top: 50px;
+        }
+        a
+        {
+            color: black;
+            text-decoration: none;
+        }
+        a:hover
+        {
+            color: yellow;
+        }
+        table{
+            border: 1px solid black;
+            height: 20px;
+            margin-top: 50px;
+        }
+        tr{
+            border: 1px solid black;
+        }
+        th {
+            border: 1px solid black;
+            height: 10px;
+        }
+        td{
+            border: 1px solid black;
+            padding: 5px;
+            height: 10px;
+        }
+        td:hover{
+            background-color: black;
+        }
+        button{
+            height: 40px;
+            width: 100px;
+            border-radius: 70px;
+            background-color: white;
+            margin: 0;
+        }
+        button:hover{
+            background-color: black;
+            color: yellow;
+        }
+        .centerheader{
+            margin-top: 50px
+        }
+        footer{
+            height: 150px;
+            width: 100%;
+            background-color: orange;
+        }
+        h2{
+            margin: 0;
+        }
