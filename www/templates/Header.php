@@ -20,9 +20,9 @@
                     <th colspan="3">Fietsen</th>
                 </tr>
                 <tr>
-                    <td><a href="Herenfiets1.php">Heren</a></td>
-                    <td><a href="damesfiets1.php">Dames</a></td>
-                    <td><a href="kinderfiets.php">Kinderen</a></td>
+                    <td><a href="productHerenfiets.php">Heren</a></td>
+                    <td><a href="productDamesfiets.php">Dames</a></td>
+                    <td><a href="productKinderfiets.php">Kinderen</a></td>
                 </tr>
             </table>
        
