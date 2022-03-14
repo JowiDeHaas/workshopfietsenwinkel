@@ -1,5 +1,5 @@
 <?php
-include 'header.php';
+include 'Header.php';
 ?>
 
 <h1>Dames fietsen</h1>
@@ -7,5 +7,5 @@ include 'header.php';
 <img src="../images/kinderfiets1.jpg" height="200" width="200">
 
 <?php
-include 'footer.php';
+include 'Footer.php';
 ?>
