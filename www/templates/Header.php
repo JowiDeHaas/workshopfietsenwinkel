@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <a href="../public/Index.php" id="logo-link"><img src="..\images\fiets.jpeg" id="logo"></a>
+        <a href="../Index.php" id="logo-link"><img src="..\images\fiets.jpeg" id="logo"></a>
          <div id="header">
              <div>
                 <h1>Fietsenwinkel</h1>
@@ -26,7 +26,7 @@
                 </tr>
             </table>
        
-            <a href="../public/WinkelWagenPagina.php"><img src="..\images/winkelwagen.png" id="winkelwagen"></a>
+            <a href="WinkelWagenPagina.php"><img src="..\images/winkelwagen.png" id="winkelwagen"></a>
             <button class="centerheader"><a href="inloggen.php" >Inloggen</a></button>
             <button class="centerheader"><a href="profiel.php" >Profiel</a></button>
         </div>
