@@ -1,6 +1,6 @@
 <?php
-include 'Header.php';
+include 'templates/Header.php';
 ?>
 <?php
-include 'Footer.php';
+include 'templates/Footer.php';
 ?>
