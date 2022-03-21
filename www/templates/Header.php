@@ -20,7 +20,7 @@
                     <th colspan="3">Fietsen</th>
                 </tr>
                 <tr>
-                    <td colspan="3"><a href="ProductPagina.php">Fietsen kopen</a></td>
+                    <td class="koopmenu" colspan="3"><a href="ProductPagina.php">Fietsen kopen</a></td>
                 </tr>
             </table>
        
