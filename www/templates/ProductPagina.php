@@ -15,7 +15,6 @@ include 'Header.php';
     <img src="../img/damesfiets1.jpg" height="200" width="200">
 </div>
 
-
 <?php
 include 'Footer.php';
 ?>

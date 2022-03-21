@@ -1,3 +1,10 @@
+<?php
+
+$css = __DIR__.'\..\css\style.css';
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,11 +12,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="<?php echo $css; ?>">
 </head>
 <body>
     <header>
-        <a href="../Index.php" id="logo-link"><img src="../img/fiets.jpeg" id="logo"></a>
+        <a href="index.php" id="logo-link"><img src="../img/fiets.jpeg" id="logo"></a>
          <div id="header">
              <div>
                 <h1>Fietsenwinkel</h1>
