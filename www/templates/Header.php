@@ -16,7 +16,7 @@ $css = __DIR__.'\..\css\style.css';
 </head>
 <body>
     <header>
-        <a href="index.php" id="logo-link"><img src="../img/fiets.jpeg" id="logo"></a>
+        <a href="../index.php" id="logo-link"><img src="../img/fiets.jpeg" id="logo"></a>
          <div id="header">
              <div>
                 <h1>Fietsenwinkel</h1>
@@ -32,8 +32,11 @@ $css = __DIR__.'\..\css\style.css';
             </table>
        
             <a href="WinkelWagenPagina.php"><img src="../img/winkelwagen.png" id="winkelwagen"></a>
+            <button class="centerheader"><a href="registreren.php" >Registreren</a></button>
             <button class="centerheader"><a href="inloggen.php" >Inloggen</a></button>
             <button class="centerheader"><a href="profiel.php" >Profiel</a></button>
+
+            <input type="text"><button>Zoeken</button>
         </div>
         
     </header> 
