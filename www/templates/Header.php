@@ -1,7 +1,7 @@
 <?php
 
 $css = __DIR__.'\..\css\style.css';
-echo $css;
+
 
 ?>
 
@@ -35,6 +35,8 @@ echo $css;
             <button class="centerheader"><a href="registreren.php" >Registreren</a></button>
             <button class="centerheader"><a href="inloggen.php" >Inloggen</a></button>
             <button class="centerheader"><a href="profiel.php" >Profiel</a></button>
+
+            <input type="text"><button>Zoeken</button>
         </div>
         
     </header> 
