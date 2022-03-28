@@ -32,6 +32,7 @@ echo $css;
             </table>
        
             <a href="WinkelWagenPagina.php"><img src="../img/winkelwagen.png" id="winkelwagen"></a>
+            <button class="centerheader"><a href="registreren.php" >Registreren</a></button>
             <button class="centerheader"><a href="inloggen.php" >Inloggen</a></button>
             <button class="centerheader"><a href="profiel.php" >Profiel</a></button>
         </div>
