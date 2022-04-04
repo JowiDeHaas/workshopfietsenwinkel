@@ -15,6 +15,7 @@ $css = __DIR__.'\css\style.css';
     <title>Document</title>
     <!-- <link rel="stylesheet" href="<?php echo $css; ?>"> -->
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
@@ -34,9 +35,9 @@ $css = __DIR__.'\css\style.css';
             </table>
        
             <a href="WinkelWagenPagina.php"><img src="../img/winkelwagen.png" id="winkelwagen"></a>
-            <button class="centerheader"><a href="registreren.php" >Registreren</a></button>
-            <button class="centerheader"><a href="inloggen.php" >Inloggen</a></button>
-            <button class="centerheader"><a href="profiel.php" >Profiel</a></button>
+            <a href="registreren.php" ><button class="centerheader">Registreren</button></a>
+            <a href="inloggen.php" ><button class="centerheader">Inloggen</button></a>
+            <a href="profiel.php" ><button class="centerheader">Profiel</button></a>
 
             <input type="text" id="zoek"><button>Zoeken</button>
         </div>
