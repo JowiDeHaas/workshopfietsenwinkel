@@ -1,6 +1,7 @@
 <?php
 
-$css = __DIR__.'\..\css\style.css';
+$css = __DIR__.'\css\style.css';
+echo $css;
 
 
 ?>
@@ -12,7 +13,8 @@ $css = __DIR__.'\..\css\style.css';
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="<?php echo $css; ?>">
+    <!-- <link rel="stylesheet" href="<?php echo $css; ?>"> -->
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <header>
@@ -36,7 +38,7 @@ $css = __DIR__.'\..\css\style.css';
             <button class="centerheader"><a href="inloggen.php" >Inloggen</a></button>
             <button class="centerheader"><a href="profiel.php" >Profiel</a></button>
 
-            <input type="text"><button>Zoeken</button>
+            <input type="text" id="zoek"><button>Zoeken</button>
         </div>
         
     </header> 
