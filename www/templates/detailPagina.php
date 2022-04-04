@@ -5,7 +5,7 @@
         <img src="../img/damesfiets1.jpg" alt="">
         <p>€289,-</p>
         <br>
-        <button type="submit">In Winkelwagen</button>
+        <button type="submit">Winkelwagen</button>
 
         <h2>Beschrijving</h2>
         <p>
@@ -59,11 +59,11 @@
         <img src="../img/damesfiets2.png" alt="">
         <h3>Popal Daily Dutch Basic damesfiets Mat Zwart</h3>
         <p>€389,-</p>
-        <button type="submit">In Winkelwagen</button>
+        <button type="submit">Winkelwagen</button>
         <img src="../img/herenfiets1.jpg" alt="">
         <h3>Popal City Herenfiets Leger Groen</h3>
         <p>€249,-</p>
-        <button type="submit">In Winkelwagen</button>
+        <button type="submit">Winkelwagen</button>
     </div>
     <br>
 

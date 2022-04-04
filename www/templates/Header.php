@@ -1,7 +1,7 @@
 <?php
 
 $css = __DIR__.'\css\style.css';
-echo $css;
+
 
 
 ?>
