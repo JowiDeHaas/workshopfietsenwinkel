@@ -34,10 +34,10 @@ $css = __DIR__.'\css\style.css';
                 </tr>
             </table>
        
-            <a href="WinkelWagenPagina.php"><img src="../img/winkelwagen.png" id="winkelwagen"></a>
-            <a href="registreren.php" ><button class="centerheader">Registreren</button></a>
-            <a href="inloggen.php" ><button class="centerheader">Inloggen</button></a>
-            <a href="profiel.php" ><button class="centerheader">Profiel</button></a>
+            <a href="templates/WinkelWagenPagina.php"><img src="../img/winkelwagen.png" id="winkelwagen"></a>
+            <a href="templates/registreren.php" ><button class="centerheader">Registreren</button></a>
+            <a href="templates/inloggen.php" ><button class="centerheader">Inloggen</button></a>
+            <a href="templates/profiel.php" ><button class="centerheader">Profiel</button></a>
 
             <input type="text" id="zoek"><button>Zoeken</button>
         </div>
