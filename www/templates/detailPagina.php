@@ -1,9 +1,27 @@
 <?php include 'Header.php' ?>
+<?php
+$data = db_getData("SELECT * FROM fietsen WHERE 1");
+if ($data->num_rows > 0) {
+    while($row = $data->fetch_assoc()) {
+//                    printf("Id: %s, Title: %s, Author: %s, Date: %d <br />",
+        $id = $row["id"];
+        $merk = $row["merk"];
+        $kleur = $row["kleur"];
+        $model = $row["model"];
+        $versnellingen = $row["versnellingen"];
+        $elektrisch = $row["elektrisch"];
+        $remtype = $row["remtype"];
+        $prijs = $row["prijs"];
+    }
+} else {
+    printf('No record found.<br />');
+}
+?>
 
     <div class="container">
         <h1>Damesfiets Altec Bronskleur</h1>
         <img src="../img/damesfiets1.jpg" alt="">
-        <p>€289,-</p>
+        <p><?php echo '€'. $prijs?></p>
         <br>
         <button type="submit">Winkelwagen</button>
 
@@ -21,48 +39,45 @@
         <br>
         <h2>Specificaties</h2>
         <table>
+
             <tr>
                 <th>Artikelnummer</th>
-                <td>1</td>
+                <td><?php echo $id?></td>
             </tr>
             <tr>
                 <th>Merk</th>
-                <td>Altec</td>
+                <td><?php echo $merk?></td>
             </tr>
             <tr>
                 <th>Kleur</th>
-                <td>Bruin</td>
+                <td><?php echo $kleur?></td>
             </tr>
             <tr>
                 <th>Model</th>
-                <td>Uni</td>
-            </tr>
-            <tr>
-                <th>Versnelling</th>
-                <td>Shimano 7 speed</td>
+                <td><?php echo $model?></td>
             </tr>
             <tr>
                 <th>Aantal versnellingen</th>
-                <td>7</td>
+                <td><?php echo $versnellingen?></td>
             </tr>
             <tr>
                 <th>Elektrisch</th>
-                <td>nee</td>
+                <td><?php echo $elektrisch?></td>
             </tr>
             <tr>
                 <th>Type rem</th>
-                <td>V-brake voor en terugtrap</td>
+                <td><?php echo $remtype?></td>
             </tr>
         </table>
         <br>
-        <h2>Ook interessant</h2>
-        <img src="../img/damesfiets2.png" alt="">
-        <h3>Popal Daily Dutch Basic damesfiets Mat Zwart</h3>
-        <p>€389,-</p>
-        <button type="submit">Winkelwagen</button>
-        <img src="../img/herenfiets1.jpg" alt="">
-        <h3>Popal City Herenfiets Leger Groen</h3>
-        <p>€249,-</p>
+<!--        <h2>Ook interessant</h2>-->
+<!--        <img src="../img/damesfiets2.png" alt="">-->
+<!--        <h3>Popal Daily Dutch Basic damesfiets Mat Zwart</h3>-->
+<!--        <p>€389,-</p>-->
+<!--        <button type="submit">Winkelwagen</button>-->
+<!--        <img src="../img/herenfiets1.jpg" alt="">-->
+<!--        <h3>Popal City Herenfiets Leger Groen</h3>-->
+<!--        <p>€249,-</p>-->
         <button type="submit">Winkelwagen</button>
     </div>
     <br>
