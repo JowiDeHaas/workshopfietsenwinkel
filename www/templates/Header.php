@@ -3,7 +3,7 @@
 $css = __DIR__.'\css\style.css';
 
 
-
+include "../../config/config.php";
 ?>
 
 <!DOCTYPE html>
