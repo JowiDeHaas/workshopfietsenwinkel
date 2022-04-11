@@ -2,7 +2,7 @@
 include 'Header.php';
 ?>
 <div class="container">
-    <a href="../index.php"><button>Uitloggen</button></a><br>
+    <a href="index.php"><button>Uitloggen</button></a><br>
     <img src="../img/Legeprofielfoto.jpg" height="150px" width="150px">
     <h1>Jan Hansen</h1>
     <h3>Wachtwoord: ****************</h3>

@@ -19,7 +19,7 @@ $css = __DIR__.'\css\style.css';
 </head>
 <body>
     <header>
-        <a href="../index.php" id="logo-link"><img src="../img/fiets.jpeg" id="logo"></a>
+        <a href="index.php" id="logo-link"><img src="../img/fiets.jpeg" id="logo"></a>
          <div id="header">
              <div>
                 <h1>Fietsenwinkel</h1>
@@ -30,16 +30,17 @@ $css = __DIR__.'\css\style.css';
                     <th colspan="3">Fietsen</th>
                 </tr>
                 <tr>
-                    <td class="koopmenu" colspan="3"><a href="templates/ProductPagina.php">Fietsen kopen</a></td>
+                    <td class="koopmenu" colspan="3"><a href="ProductPagina.php">Fietsen kopen</a></td>
                 </tr>
             </table>
        
-            <a href="templates/WinkelWagenPagina.php"><img src="../img/winkelwagen.png" id="winkelwagen"></a>
-            <a href="templates/registreren.php" ><button class="centerheader">Registreren</button></a>
-            <a href="templates/inloggen.php" ><button class="centerheader">Inloggen</button></a>
-            <a href="templates/profiel.php" ><button class="centerheader">Profiel</button></a>
+             <a href="WinkelWagenPagina.php"><img src="../img/winkelwagen.png" id="winkelwagen"></a>
+             <a href="Contact.php" ><button class="centerheader">Contact</button></a>
+             <a href="registreren.php" ><button class="centerheader">Registreren</button></a>
+             <a href="inloggen.php" ><button class="centerheader">Inloggen</button></a>
+             <a href="profiel.php" ><button class="centerheader">Profiel</button></a>
 
-            <input type="text" id="zoek"><button>Zoeken</button>
+<!--            <input type="text" id="zoek"><button>Zoeken</button>-->
         </div>
         
     </header> 

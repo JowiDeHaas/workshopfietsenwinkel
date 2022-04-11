@@ -1,7 +1,7 @@
 <?php
 include 'Header.php';
 ?>
-
+    <div class="container">
     <form action="#">
         <h1>Registreer</h1>
         <p>Name: <input type="text" name="user"></p>
